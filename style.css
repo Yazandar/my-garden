@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    height: 900px;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header h1 {
+    padding-top: 20px;
+    height: 100%;
+    font-size: 50px;
+    text-align: center;
+    background-color: #107dac ;
+    color: white;
+}
+
+main{
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+fieldset{
+    border: none;
+    margin-left: 200px;
+}
+
+form {
+    display: grid;
+    grid-template-rows: repeat(3, 30px);
+}
+
+legend{
+    width: 100%;
+}
+
+input {
+    height: 20px;
+    width: 100%;
+}
+
+#saving {
+    width: 70px;
+    background-color: #71c7ec;
+    border: none;
+    color: white;
+}
+
+label{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: #107dac;
+    color: white;
+}
+
+#flowersForm {
+    margin-left: 50%;
+}
